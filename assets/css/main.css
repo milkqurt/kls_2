@@ -518,6 +518,11 @@ h6 {
     z-index: 9999; /* Убедимся, что кнопка всегда на переднем плане */
   }
 
+   .header .logo img {
+    max-height: 52px;
+    margin-right: 12px;
+  }
+
   .navmenu {
     padding: 0;
     z-index: 9997; /* Переместим навигационное меню в правильный слой */
