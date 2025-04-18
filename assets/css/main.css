@@ -531,7 +531,7 @@ h6 {
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background-color: var(--nav-mobile-background-color);
+    background-color:  #ffc107;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998; /* Задаём уровень видимости */
@@ -570,13 +570,13 @@ h6 {
   .navmenu a i:hover,
   .navmenu a:focus i:hover {
     background-color: var(--accent-color);
-    color: var(--contrast-color);
+    color: #000000;
   }
 
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color:  #000000;;
   }
 
   .navmenu .active i,
@@ -612,7 +612,7 @@ h6 {
   }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 32px;
     top: 15px;
@@ -641,11 +641,11 @@ h6 {
   }
 }
 
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   .hero-bg {
     filter: brightness(0.5); /* Более сильное затемнение для десктопа */
-  }
-}
+  /* } */
+/* } */ */
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -2493,4 +2493,5 @@ section,
   opacity: 1;
   transform: translateX(0) translateY(-50%);
 }
+
 
