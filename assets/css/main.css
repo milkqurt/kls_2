@@ -518,6 +518,16 @@ h6 {
     z-index: 9999; /* Убедимся, что кнопка всегда на переднем плане */
   }
 
+  .about .content .read-more img {
+  height: 100%;
+  width: auto;
+  margin-left: 0;     /* Убираем отступ */
+  margin-right: -15px;    /* На всякий случай */
+  padding: 0;
+  display: block;
+  object-fit: contain;
+}
+  
    .header .logo img {
     max-height: 52px;
     margin-right: 12px;
