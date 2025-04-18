@@ -690,7 +690,7 @@ h6 {
   height: 100%;
   width: auto;
   margin-left: 0;     /* Убираем отступ */
-  margin-right: -30px;    /* На всякий случай */
+  margin-right: -15px;    /* На всякий случай */
   padding: 0;
   display: block;
   object-fit: contain;
